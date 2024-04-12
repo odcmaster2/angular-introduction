@@ -7,13 +7,15 @@
 
 
 ## Βήμα 0: Προετοιμασία και βασικές ενέργειες
-Εγκατάσταση του Angular CLI
+- Εγκατάσταση του Angular CLI
 
 npm install -g @angular/cli@latest
-Δημιουργία ενός νέου Angular Project
+
+- Δημιουργία ενός νέου Angular Project
 
 ng new angular-introduction --standalone --skip-tests
-Επεμβάσεις στο αρχείο ts.config.json
+
+- Επεμβάσεις στο αρχείο ts.config.json
 
 {
 ...
@@ -25,7 +27,8 @@ ng new angular-introduction --standalone --skip-tests
 }
 ...
 }
-Εκκίνηση του Angular Project
+
+- Εκκίνηση του Angular Project
 
 ❯ ng serve
 Initial chunk files | Names         | Raw size
