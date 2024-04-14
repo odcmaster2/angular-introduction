@@ -13,6 +13,7 @@ export class ListGroupMenuComponent {
   menu: MenuItem[] = [
     {text: 'Component Input Example', routerLink: 'component-input-example'},
     {text: '@for-directive-example', routerLink: 'for-directive-example'},
-    {text: 'Event-bind-example', routerLink: 'event-bind-example'}
+    {text: 'Event-bind-example', routerLink: 'event-bind-example'},
+    {text: 'Simple-datatable-example', routerLink: 'simple-datatable-example'}
   ]
 }
