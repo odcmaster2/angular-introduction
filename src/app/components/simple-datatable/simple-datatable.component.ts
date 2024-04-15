@@ -15,7 +15,7 @@ export class SimpleDatatableComponent {
 
   
 
-  sortOrder = {
+  sortOrder: { [key: string]: string } = {
     givenName: 'none',
     surName: 'none',
     age: 'none',
@@ -30,6 +30,22 @@ export class SimpleDatatableComponent {
     } else {
       this.sortOrder[sortKey] = 'asc';
       this.data = sortBy(this.data, sortKey);
+    }
+
+    for (let key in this.sortOrder) {
+      if (key !== sortKey) {
+        this.sortOrder[key] = 'none';
+      }
+    }
+  }
+
+  sortSign(sortKey: string) {
+    if (this.sortOrder[sortKey] === 'asc') {
+      return '↑';
+    } else if (this.sortOrder[sortKey] === 'desc') {
+      return '↓';
+    } else {
+      return '';
     }
   }
 }
