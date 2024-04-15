@@ -11,14 +11,14 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^17.3.0",
-    "@angular/common": "^17.3.0",
-    "@angular/compiler": "^17.3.0",
-    "@angular/core": "^17.3.0",
-    "@angular/forms": "^17.3.0",
-    "@angular/platform-browser": "^17.3.0",
-    "@angular/platform-browser-dynamic": "^17.3.0",
-    "@angular/router": "^17.3.0",
+    "@angular/animations": "^17.3.4",
+    "@angular/common": "^17.3.4",
+    "@angular/compiler": "^17.3.4",
+    "@angular/core": "^17.3.4",
+    "@angular/forms": "^17.3.4",
+    "@angular/platform-browser": "^17.3.4",
+    "@angular/platform-browser-dynamic": "^17.3.4",
+    "@angular/router": "^17.3.4",
     "bootstrap": "^5.3.3",
     "lodash-es": "^4.17.21",
     "rxjs": "~7.8.0",
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.3.4",
     "@angular/cli": "^17.3.4",
-    "@angular/compiler-cli": "^17.3.0",
+    "@angular/compiler-cli": "^17.3.4",
     "@types/jasmine": "~5.1.0",
     "@types/lodash-es": "^4.17.12",
     "angular-cli-ghpages": "^2.0.0-beta.2",
@@ -39,6 +39,6 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "prettier": "^3.2.5",
-    "typescript": "~5.4.2"
+    "typescript": "~5.2.2"
   }
 }

@@ -9,6 +9,7 @@ import { ManyPerson } from 'src/app/shared/interfaces/person';
   templateUrl: './simple-datatable-example.component.html',
   styleUrl: './simple-datatable-example.component.css'
 })
+
 export class SimpleDatatableExampleComponent {
   manyperson = ManyPerson;
 }
